@@ -1,10 +1,8 @@
 # Laser Interface
 
-### Overview
-
 The [Avionics Anonymous Laser Altimeter Interface](https://www.tindie.com/products/avionicsanonymous/uavcan-laser-altimeter-interface/) is a tiny interface for [several common laser rangefinders](laser_interface.md#currently-supported-lasers) that allows connection to Pixhawk and other similar autopilots via UAVCAN - A nice robust interface, no sketchy long-distance I2C wiring and no hogged serial ports! These lasers are great for use as laser altimeters which help with nice auto landings. Comes fully assembled, ready to use!
 
-#### Currently supported lasers
+#### Currently supported Lasers
 
 At time of writing the following rangefinders are supported:
 
