@@ -20,10 +20,12 @@ All AvAnon nodes have some internal parameters which can be adjusted via the UAV
    * The node should appear in the GUI "Online Nodes" list
 
      ![UAVCAN GUI Node List](../.gitbook/assets/CANGUI_NodeList.png)  
+
 6. Double-click on the AvAnon node
    * A window like this should appear
 
      ![UAVCAN GUI Node Properties](../.gitbook/assets/CANGUI_NodeProps.png)  
+     
 7. Under "Configuration Parameters, click on "Fetch All"
 
    ![UAVCAN GUI Node Properties](../.gitbook/assets/CANGUI_ConfigControls_FetchAll.png)  
