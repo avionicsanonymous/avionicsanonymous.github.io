@@ -56,7 +56,7 @@ Several autopilot parameters must be set using QGC or similar:
 
 #### Node Configuration
 
-The MiniMag node has a number of parameters accessible via the UAVCAN interface. These may be set following the steps outlined [here](../general-1/parameters.md)
+The MiniMag node has a number of parameters accessible via the UAVCAN interface. These may be set following the steps outlined [here](../general/parameters.md)
 
 **Parameters**
 

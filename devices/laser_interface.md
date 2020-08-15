@@ -103,7 +103,7 @@ Certain parameters must be configured in your rangefinder per the manufacturer's
 
 #### Node Configuration
 
-The Laser Interface node has a number of parameters accessible via the UAVCAN interface. These may be set following the steps outlined [here](../general-1/parameters.md)
+The Laser Interface node has a number of parameters accessible via the UAVCAN interface. These may be set following the steps outlined [here](../general/parameters.md)
 
 **Parameters**
 
