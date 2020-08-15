@@ -1,5 +1,3 @@
-<div style="float:right; padding:10px; margin-right:20px;"><a href="http://avionicsanonymous.github.com"></a></div>
-
 # Avionics Anonymous Device User Guide
 
 Avionics Anonymous is dedicated to providing high-quality electronics to the hobby robotics community. Many of our offerings were born out of needs we had on our own projects and found a surprising lack of good options on the market. We built these devices to meet our own needs and are excited to share with the world!
