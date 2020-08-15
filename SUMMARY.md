@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Home](README.md)
-* [Untitled](untitled.md)
 
 ## General <a id="general-1"></a>
 
