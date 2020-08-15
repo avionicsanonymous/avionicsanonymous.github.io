@@ -65,7 +65,8 @@ The interface board provides a filtered power output for the laser, but does not
 | 1 | POWER\_IN | Power Supply. 4.0-5.5V supported, but must also be compatible with connected laser. |
 | 2 | TX/SCL | TX for serial mode, Clock for I2C mode |
 | 3 | RX/SDA | RX for serial mode, Data for I2C mode |
-| 4 | GND | Signal/power ground. |
+| 4 | GND | Signal/power ground. |  
+<span></span>
 
 **Laser Connector**
 
@@ -74,7 +75,13 @@ The interface board provides a filtered power output for the laser, but does not
 | 1 | POWER\_OUT | Filtered power at the supply voltage. |
 | 2 | CAN\_H | CAN high |
 | 3 | CAN\_L | CAN low |
-| 4 | GND | Signal/power ground. |
+| 4 | GND | Signal/power ground. |  
+<span></span>
+
+
+![Connection to Lightware SF0x/SF1x/SF30 Lasers](../.gitbook/assets/laserwiring_sf0x.png)  
+
+![Connection to Lightware LW20](../.gitbook/assets/laserwiring_lw20.png)  
 
 ## Configuration
 
@@ -101,7 +108,8 @@ Certain parameters must be configured in your rangefinder per the manufacturer's
 | Lightware SF11/b | Must be set to 115200 baud |
 | Lightware SF\(LW\)20/b | Must be set to 115200 baud. Returns default distance. |
 | Lightware SF11/b | Must be set to 115200 baud. Returns default distance. |
-| Lightware SF30/D | Must be set to 115200 baud. Returns default distance. |
+| Lightware SF30/D | Must be set to 115200 baud. Returns default distance. |  
+<span></span>
 
 ### Node Configuration
 
@@ -128,5 +136,6 @@ The Laser Interface node has a number of parameters accessible via the UAVCAN in
 | Lightware SF11/b | 6 | Serial |
 | Lightware SF\(LW\)20/b | 7 | Serial |
 | Lightware SF11/b | 8 | Serial |
-| Lightware SF30/D | 10 | Serial |
+| Lightware SF30/D | 10 | Serial |  
+<span></span>
 

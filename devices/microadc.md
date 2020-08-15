@@ -49,14 +49,16 @@ The MicroADC is connected to your autopilot via CAN bus. The wiring is per the p
 | 1 | POWER\_IN | Power Supply. 4.0-5.5V supported. |
 | 2 | CAN\_H | CAN high |
 | 3 | CAN\_L | CAN low |
-| 4 | GND | Signal/power ground. |
+| 4 | GND | Signal/power ground. |  
+<span></span>
 
 **OAT Connector**
 
 | Pin | Name | Description |
 | :--- | :--- | :--- |
 | 1 | Thermistor | Included OAT thermistor |
-| 2 | Thermistor | Included OAT thermistor |
+| 2 | Thermistor | Included OAT thermistor |  
+<span></span>
 
 ## Plumbing
 

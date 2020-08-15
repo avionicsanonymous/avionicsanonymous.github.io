@@ -46,7 +46,8 @@ The GNSSMag is connected to your autopilot via CAN bus. The wiring is per the pi
 | 1 | POWER\_IN | Power Supply. 4.0-5.5V supported. |
 | 2 | CAN\_H | CAN high |
 | 3 | CAN\_L | CAN low |
-| 4 | GND | Signal/power ground. |
+| 4 | GND | Signal/power ground. |  
+<span></span>
 
 **AUX Connector**
 
@@ -54,7 +55,8 @@ The GNSSMag is connected to your autopilot via CAN bus. The wiring is per the pi
 | :--- | :--- | :--- |
 | 1 | EXTINT | GPS external interrupt input. Normally unused. |
 | 2 | Reserved | Reserved for future use |
-| 3 | PPS | GPS Pulse-Per-Second output |
+| 3 | PPS | GPS Pulse-Per-Second output |  
+<span></span>
 
 ## Configuration
 
