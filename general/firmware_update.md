@@ -11,23 +11,24 @@ The firmware on all AvAnon UAVCAN nodes can be updated via their UAVCAN interfac
 3. Connect your [SLCAN tool](https://zubax.com/products/babel) to your computer
 4. Open the UAVCAN GUI and select your SLCAN tool
 
-   ![UAVCAN GUI Connection Dialog](../.gitbook/assets/CANGUI_Connect%20%281%29.png)
+   ![UAVCAN GUI Connection Dialog](../.gitbook/assets/CANGUI_Connect%20%281%29.png)  
 
 5. Set your local Node ID and click the "check" button
 
-   ![UAVCAN GUI Set Local Node ID](../.gitbook/assets/CANGUI_SetNodeID.png)
+   ![UAVCAN GUI Set Local Node ID](../.gitbook/assets/CANGUI_SetNodeID.png)  
 
 6. Connect your AvAnon node to your SLCAN tool
    * The node should appear in the GUI "Online Nodes" list
 
-     ![UAVCAN GUI Node List](../.gitbook/assets/CANGUI_NodeList%20%281%29.png)
+     ![UAVCAN GUI Node List](../.gitbook/assets/CANGUI_NodeList%20%281%29.png)  
 7. Double-click on the AvAnon node you want to update
    * A window like this should appear
 
-     ![UAVCAN GUI Node Properties](../.gitbook/assets/CANGUI_NodeProps%20%281%29.png)
+     ![UAVCAN GUI Node Properties](../.gitbook/assets/CANGUI_NodeProps%20%281%29.png)  
 8. Click on "Update Firmware"
 
-   ![UAVCAN GUI Node Properties](../.gitbook/assets/CANGUI_FWUpdate.png)
+   ![UAVCAN GUI Node Properties](../.gitbook/assets/CANGUI_FWUpdate.png)  
+
 
    * You may get a warning that no dynamic ID server is running that asks if you want to continue. Select "yes".
 
