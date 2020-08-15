@@ -10,12 +10,12 @@ Avionics Anonymous is dedicated to providing high-quality electronics to the hob
 
 ### Check out the pages below for specifics on each of our devices:
 
-* [Laser Interface](devices/laser_interface.md) 
-* [MiniMag](devices/minimag.md)
+* [Laser Interface](devices-1/laser_interface.md) 
+* [MiniMag](devices-1/minimag.md)
 * More guides coming soon!
 
 ### Check out these pages for general tips that apply to most devices:
 
-* [Firmware Update](general/firmware_update.md) for how to update firmware on AvAnon CAN nodes
-* [Parameter Adjustment](general/parameters.md) for how to adjust parameters on AvAnon CAN nodes
+* [Firmware Update](general-1/firmware_update.md) for how to update firmware on AvAnon CAN nodes
+* [Parameter Adjustment](general-1/parameters.md) for how to adjust parameters on AvAnon CAN nodes
 
