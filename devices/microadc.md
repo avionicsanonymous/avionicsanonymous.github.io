@@ -76,7 +76,7 @@ Two barbed fittings are provided to connect to 1/16" ID tubing. The upper barb, 
 
 Several autopilot parameters must be set using QGC or similar:
 
-* _UAVCAN_ must be enabled by setting UAVCAN\_ENABLE non zero. Set this to 1 for basic functionality or 2 to allow the device's UAVCAN parameters to be accessed via QGC.
+* UAVCAN must be enabled by setting _UAVCAN\_ENABLE_ non zero. Set this to 1 for basic functionality or 2 to allow the device's UAVCAN parameters to be accessed via QGC.
 
 ### Node Configuration
 

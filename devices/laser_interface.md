@@ -91,7 +91,7 @@ The interface board provides a filtered power output for the laser, but does not
 
 Several autopilot parameters must be set using QGC or similar:
 
-* _UAVCAN_ must be enabled by setting UAVCAN\_ENABLE non zero. Set this to 1 for basic functionality or 2 to allow the device's UAVCAN parameters to be accessed via QGC.
+* UAVCAN must be enabled by setting _UAVCAN\_ENABLE_ non zero. Set this to 1 for basic functionality or 2 to allow the device's UAVCAN parameters to be accessed via QGC.
 * The minimum and maximum valid range for the laser must be set in the parameters _UAVCAN\_RNG\_MIN_ and _UAVCAN\_RNG\_MAX_. These should be set according to the rangefinder manufacturer's datasheet.
 
 ### Rangefinder Configuration
