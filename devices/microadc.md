@@ -1,8 +1,8 @@
-# MicroADC Air Data Computer
+# Overview
 
-![MicroADC](../.gitbook/assets/microadc.png)  
+![MicroADC Air Data Computer](../.gitbook/assets/microadc.png)  
 
-The [Avionics Anonymous MicroADC](https://www.tindie.com/products/avionicsanonymous/uavcan-air-data-computer-airspeed-sensor/) is a tiny, richly-featured Air Data Computer (ADC) for small unmanned airplanes. Includes an MS5611 barometric pressure sensor for 10cm-resolution altitude, a Honeywell RSC-series differential pressure transducer for extremely accurate airspeed, and a thermistor interface with high-resolution convertor for air temperature measurement with less than 1 degree precision. All of this interfaces to your autopilot via robust UAVCAN interface - no sketchy I2C wiring! Comes fully assembled, ready to use!
+The [Avionics Anonymous MicroADC Air Data Computer](https://www.tindie.com/products/avionicsanonymous/uavcan-air-data-computer-airspeed-sensor/) is a tiny, richly-featured Air Data Computer (ADC) for small unmanned airplanes. Includes an MS5611 barometric pressure sensor for 10cm-resolution altitude, a Honeywell RSC-series differential pressure transducer for extremely accurate airspeed, and a thermistor interface with high-resolution convertor for air temperature measurement with less than 1 degree precision. All of this interfaces to your autopilot via robust UAVCAN interface - no sketchy I2C wiring! Comes fully assembled, ready to use!
 
 ## What makes it special?
 

@@ -1,8 +1,8 @@
-# GNSSMag GPS and Magnetometer
+# Overview
 
-![GNSSMag](../.gitbook/assets/gnssmag.png)  
+![GNSSMag GPS and Magnetometer](../.gitbook/assets/gnssmag.png)  
 
-The [Avionics Anonymous GNSSMag](https://www.tindie.com/products/avionicsanonymous/uavcan-gps-magnetometer/) is a combination GPS and magnetometer for small unmanned aircraft. Includes a uBlox SAM-M8Q integrated multi-constellation GNSS unit and a high-quality Memsic MMC5983MA magnetometer enabling sub-1-degree heading accuracy. All of this interfaces to your autopilot via robust UAVCAN interface - no sketchy I2C wiring for your magnetometer! Comes fully assembled, ready to plug in and use! Also available without a magnetometer for applications using remote mags.
+The [Avionics Anonymous GNSSMag GPS and Magnetometer](https://www.tindie.com/products/avionicsanonymous/uavcan-gps-magnetometer/) is a combination GPS and magnetometer for small unmanned aircraft. Includes a uBlox SAM-M8Q integrated multi-constellation GNSS unit and a high-quality Memsic MMC5983MA magnetometer enabling sub-1-degree heading accuracy. All of this interfaces to your autopilot via robust UAVCAN interface - no sketchy I2C wiring for your magnetometer! Comes fully assembled, ready to plug in and use! Also available without a magnetometer for applications using remote mags.
 
 ## What makes it special?
 
