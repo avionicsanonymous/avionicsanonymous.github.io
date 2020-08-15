@@ -12,7 +12,8 @@ Avionics Anonymous is dedicated to providing high-quality electronics to the hob
 
 * [Laser Interface](devices/laser_interface.md) 
 * [MiniMag](devices/minimag.md)
-* More guides coming soon!
+* [GNSSMag](devices/gnssmag.md)
+* [MicroADC](devices/microadc.md)
 
 ### Check out these pages for general tips that apply to most devices:
 
