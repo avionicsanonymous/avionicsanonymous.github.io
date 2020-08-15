@@ -1,5 +1,7 @@
 # MiniMag Magnetometer
 
+![MiniMag](../.gitbook/assets/minimag.png)  
+
 The [Avionics Anonymous Laser Altimeter Interface](https://www.tindie.com/products/avionicsanonymous/uavcan-laser-altimeter-interface/) is a high-precision magnetometer for small unmanned aircraft. it includes a high-quality Memsic MMC5983MA magnetometer enabling sub-1-degree heading accuracy. This interfaces to your autopilot via robust UAVCAN interface - no sketchy I2C wiring for your magnetometer!
 
 ## What makes it special?
