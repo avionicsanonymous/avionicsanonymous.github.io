@@ -24,7 +24,7 @@ The [Avionics Anonymous Laser Altimeter Interface](https://www.tindie.com/produc
 
 ## Where to Buy
 
-* [AvAnon MiniMag](https://www.tindie.com/products/avionicsanonymous/uavcan-magnetometer/)
+* [Tindie](https://www.tindie.com/products/avionicsanonymous/uavcan-magnetometer/)
 
 <span></span>
 

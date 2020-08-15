@@ -43,7 +43,7 @@ Coming soon:
 
 ## Where to Buy
 
-* [AvAnon Laser Interface](https://www.tindie.com/products/avionicsanonymous/uavcan-laser-altimeter-interface/)
+* [Tindie](https://www.tindie.com/products/avionicsanonymous/uavcan-laser-altimeter-interface/)
 
 <span></span>
 

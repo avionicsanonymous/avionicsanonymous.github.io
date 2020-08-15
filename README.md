@@ -14,10 +14,11 @@ Avionics Anonymous is dedicated to providing high-quality electronics to the hob
 
 - [Laser Interface](devices/laser_interface.md) 
 - [MiniMag](devices/minimag.md)
-- [GNSSMag](devices/GNSSMag.md)
-- [microADC](devices/microADC.md)
+- More guides coming soon!
+<!-- - [GNSSMag](devices/GNSSMag.md) -->
+<!-- - [microADC](devices/microADC.md) -->
 
 **Check out these pages for general tips that apply to most devices:**
 
-- [Parameter Adjustment](general/parameters.md) for how to adjust parameters on AvAnon CAN nodes
 - [Firmware Update](general/firmware_update.md) for how to update firmware on AvAnon CAN nodes
+- [Parameter Adjustment](general/parameters.md) for how to adjust parameters on AvAnon CAN nodes
