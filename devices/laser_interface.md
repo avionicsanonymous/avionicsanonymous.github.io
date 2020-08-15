@@ -1,4 +1,4 @@
-# laser\_interface
+# Laser Interface
 
 ## Laser Altimeter Interface
 

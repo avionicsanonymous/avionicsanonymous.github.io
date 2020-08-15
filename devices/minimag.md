@@ -1,4 +1,4 @@
-# minimag
+# MiniMag Magnetometer
 
 ## Minimag
 

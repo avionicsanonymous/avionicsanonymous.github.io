@@ -5,6 +5,6 @@
   * [Parameters](general/parameters.md)
   * [Firmware Update](general/firmware_update.md)
 * [Devices](devices/README.md)
-  * [laser\_interface](devices/laser_interface.md)
-  * [minimag](devices/minimag.md)
+  * [Laser Interface](devices/laser_interface.md)
+  * [MiniMag Magnetometer](devices/minimag.md)
 
