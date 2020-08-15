@@ -2,20 +2,20 @@
 
 The [Avionics Anonymous Laser Altimeter Interface](https://www.tindie.com/products/avionicsanonymous/uavcan-laser-altimeter-interface/) is a high-precision magnetometer for small unmanned aircraft. it includes a high-quality Memsic MMC5983MA magnetometer enabling sub-1-degree heading accuracy. This interfaces to your autopilot via robust UAVCAN interface - no sketchy I2C wiring for your magnetometer!
 
-### What makes it special?
+## What makes it special?
 
 * Extremely high-quality Memsic magnetometer IC allows ~0.5deg heading accuracy in low-interference installations
 * Robust UAVCAN interface is compatible with most Pixhawks and similar autopilots and makes it safe to install your laser far away from the autopilot, wherever is convenient!
 * Mount with screws through mounting ears or snip them off and foam tape it to your airframe
 * Update firmware via CAN interface
 
-### Specifications
+## Specifications
 
 * Weight: 3.2 grams  
 * Size: 1.25in x 0.75in x 0.25in  
 * Power: 4.0V to 5.5V, XXmA  
 
-### Required Accessories
+## Required Accessories
 
 * [CAN Harness](https://www.tindie.com/products/avionicsanonymous/uavcan-interconnect-cable/) - connects between the autopilot and a CAN node and between each CAN node on the bus
 * [CAN Terminator](https://www.tindie.com/products/avionicsanonymous/uavcan-jst-terminator/) - connects to the last device on the CAN bus
@@ -24,16 +24,16 @@ The [Avionics Anonymous Laser Altimeter Interface](https://www.tindie.com/produc
 
 * [Tindie](https://www.tindie.com/products/avionicsanonymous/uavcan-magnetometer/)
 
-## User Guide
+# User Guide
 
-### Wiring
+## Wiring
 
 The MiniMag is connected to your autopilot via CAN bus. The wiring is per the pinout below, or the necessary cables can be purchased to connect to your system right out of the box:
 
 * [CAN Harness](https://www.tindie.com/products/avionicsanonymous/uavcan-interconnect-cable/) - connects between the autopilot and a CAN node and between each CAN node on the bus
 * [CAN Terminator](https://www.tindie.com/products/avionicsanonymous/uavcan-jst-terminator/) - connects to the last device on the CAN bus
 
-#### Pinouts
+### Pinouts
 
 **CAN Connector**
 
@@ -44,9 +44,9 @@ The MiniMag is connected to your autopilot via CAN bus. The wiring is per the pi
 | 3 | CAN\_L | CAN low |
 | 4 | GND | Signal/power ground. |
 
-### Configuration
+## Configuration
 
-#### Autopilot Configuration
+### Autopilot Configuration
 
 **PX4**
 
@@ -54,7 +54,7 @@ Several autopilot parameters must be set using QGC or similar:
 
 * _UAVCAN_ must be enabled by setting UAVCAN\_ENABLE non zero. Set this to 1 for basic functionality or 2 to allow the device's UAVCAN parameters to be accessed via QGC.
 
-#### Node Configuration
+### Node Configuration
 
 The MiniMag node has a number of parameters accessible via the UAVCAN interface. These may be set following the steps outlined [here](../general-1/parameters.md)
 
