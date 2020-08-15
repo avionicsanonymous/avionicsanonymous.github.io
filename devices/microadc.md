@@ -49,6 +49,21 @@ The MicroADC is connected to your autopilot via CAN bus. The wiring is per the p
 | 3 | CAN\_L | CAN low |
 | 4 | GND | Signal/power ground. |
 
+**OAT Connector**
+
+| Pin | Name | Description |
+| :--- | :--- | :--- |
+| 1 | Thermistor | Included OAT thermistor |
+| 2 | Thermistor | Included OAT thermistor |
+
+## Plumbing
+
+The MicroADC must be plumbed to a clean source of both pitot and static pressure. Typically, this is accomplished via a pitot/static probe, but a static source can also be installed in a carefully-chosen location on the fuselage.  
+
+Two barbed fittings are provided to connect to 1/16" ID tubing. The upper barb, which connects only to the differential pressure transducer, is for pitot pressure. The lower barb, which connects to both the differential pressure transducer and barometer, is for static pressure.  
+
+![UAVCAN GUI Node List](../.gitbook/assets/microadcAirConnections.png)  
+
 ## Configuration
 
 ### Autopilot Configuration
