@@ -2,13 +2,13 @@
 
 * [Home](README.md)
 
-## General <a id="general-1"></a>
+## General <a id="general"></a>
 
-* [Parameters](general-1/parameters.md)
-* [Firmware Update](general-1/firmware_update.md)
+* [Parameters](general/parameters.md)
+* [Firmware Update](general/firmware_update.md)
 
-## Devices <a id="devices-1"></a>
+## Devices <a id="devices"></a>
 
-* [Laser Interface](devices-1/laser_interface.md)
-* [MiniMag Magnetometer](devices-1/minimag.md)
+* [Laser Interface](devices/laser_interface.md)
+* [MiniMag Magnetometer](devices/minimag.md)
 
