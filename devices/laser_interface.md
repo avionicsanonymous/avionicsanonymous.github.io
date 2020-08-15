@@ -107,11 +107,12 @@ The Laser Interface node has a number of parameters accessible via the UAVCAN in
 
 **Parameters**
 
-| Parameter Name | Description | Values |
-| :--- | :--- | :--- |
-| node\_id | Node ID for this device | 1-125 |
-| rangefinder\_hw | Rangefinder type specifier - see list below | 1-10 \(see below\) |
-| first\_return | Use "first" or "last" return range, if supported by rangefinder | 0 = last return, 1 = first return |
+| Parameter Name | Description | Default Value | Allowable Values |
+| :--- | :--- | :--- | :--- |
+| node\_id | Node ID for this device | 103 | 1-125 |
+| rangefinder\_hw | Rangefinder type specifier - see list below | 5 (or as ordered) | 1-10 \(see below\) |
+| first\_return | Use "first" or "last" return range, if supported by rangefinder | 0 | 0 = last return, 1 = first return |  
+<span></span>
 
 **Rangefinder Hardware Options**
 

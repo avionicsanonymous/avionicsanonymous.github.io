@@ -10,5 +10,7 @@
 ## Devices
 
 * [Laser Interface](devices/laser_interface.md)
-* [MiniMag Magnetometer](devices/minimag.md)
+* [MiniMag](devices/minimag.md)
+* [GNSSMag](devices/gnssmag.md)
+* [MicroADC](devices/microadc.md)
 
