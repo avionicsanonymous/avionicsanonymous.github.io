@@ -8,4 +8,10 @@ Here's the repository for the latest firmware for each node. Please keep your de
 | Laser Interface | [v1.1](/firmware/binaries/LaserInt-1.1.blah.bin)| [Click Here](/firmware/release_notes/laserint.md) |
 | MicroADC | [v1.1](/firmware/binaries/MicroADC-1.1.blah.bin)| [Click Here](/firmware/release_notes/microadc.md) |
 
+<form method="get" action="/firmware/binaries/MiniMag-1.1.notReal.bin">
+   <button type="submit">Download!</button>
+</form>
+
+<a href="/firmware/binaries/MiniMag-1.1.notReal.bin" download>v1.1</a>
+
 <span></span>
