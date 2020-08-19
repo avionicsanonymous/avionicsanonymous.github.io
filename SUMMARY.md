@@ -6,7 +6,6 @@
 
 * [Parameters](general/parameters.md)
 * [Firmware Update](general/firmware_update.md)
-* [Firmware Download](general/firmware.md)
 
 ## Devices
 

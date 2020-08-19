@@ -1,8 +1,6 @@
 # Firmware Update
 
-The firmware on all AvAnon UAVCAN nodes can be updated via their UAVCAN interface. Make sure to keep your devices updated for the best performance!
-
-[Visit the firmware repository here](firmware.md)
+The firmware on all AvAnon UAVCAN nodes can be updated via their UAVCAN interface. Make sure to keep your devices updated for the best performance! Firmware download links and release notes can be found near the bottom of each device page.
 
 ## Updating using UAVCAN GUI and SLCAN tool
 

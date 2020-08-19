@@ -93,3 +93,14 @@ _**Notes on airspeed vs raw pressure**_
 
 The MicroADC is capable of publishing calculated indicated and true airspeed based on its sensors. This is valuable for systems which don't have other means to compute these values. However, the PX4 autopilot system is build on an old assumption that only raw pressure is provided, so their existing data flow and sensor validation works better if only raw pressure is provided. The autopilot will still use the highly-accurate pressure and air temperature measurements from the microADC to calculate indicated and true airspeed at identical accuracy to that computed within the air data computer. For this reason, when using PX4, we suggest leaving the default settings - "pub\_airspeed" set to 0 and "pub\_raw\_press" set to 1.
 
+## Firmware
+
+{% file src="../.gitbook/assets/minimag-1.1.notreal.bin" caption="Firmware v1.1" %}
+
+### Release Notes
+
+#### v1.1
+* Fix CAN transfer bug that could cause intermittent bus lockups
+
+#### v1.0
+* Initial Release
