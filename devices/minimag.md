@@ -81,4 +81,4 @@ Setting the "auto\_mag\_set" parameter to 1 enables an experimental automatic te
 
 {% file src="../.gitbook/assets/minimag-1.1.notreal.bin" caption="MiniMag v1.1" %}
 
-[Release Notes](/firmware/release_notes/minimag.md)
+[Release Notes](firmware/release_notes/minimag.md)
