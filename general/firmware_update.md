@@ -47,10 +47,13 @@ The firmware on all AvAnon UAVCAN nodes can be updated via their UAVCAN interfac
 
 ## Updating automatically using PX4-based autopilots
 
+**Note** Not ready yet - check back soon!
+
+<!-- 
 **Note** This guide has not been extensively tested. Please refer to PX4 documentation if you have trouble.
 
 1. Download the latest firmware for your AvAnon node, save it somewhere accessible on your computer, and unzip the folder.
-2. Ensure your autopilot's "UAVCAN\_ENABLE" parameter is set to 1 or higher
+2. Ensure your autopilot's "UAVCAN\_ENABLE" parameter is set to 2 or higher. While a setting of "1" allows nodes to be used, it does not enable the firmware update server.
 3. Insert your autopilot's SD card into your computer and navigate to it
 4. Navigate to the firmware you saved and copy the folder named "com.AvAnon._nodename_" . You will paste this soon.
 5. Navigate to the "fw" folder on the root of the card
@@ -61,5 +64,5 @@ The firmware on all AvAnon UAVCAN nodes can be updated via their UAVCAN interfac
 9. Connect all nodes to be updated to your autopilot per their wiring instructions \(simply use the CAN interconnect cables\)
 10. Power on your autopilot and wait!
     * The LED's on your AvAnon nodes should flash yellow/red alternately as they are being updated
-11. When the firmware update is successful on each node, that node will restart and its LED will flash green
+11. When the firmware update is successful on each node, that node will restart and its LED will flash green -->
 
