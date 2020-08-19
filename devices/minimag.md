@@ -1,41 +1,43 @@
-# Overview
+# MiniMag
 
-![MiniMag Magnetometer](../.gitbook/assets/minimag.png)  
+## Overview
+
+![MiniMag Magnetometer](../.gitbook/assets/minimag.png)
 
 The [Avionics Anonymous MiniMag Magnetometer](https://www.tindie.com/products/avionicsanonymous/uavcan-magnetometer/) is a high-precision magnetometer for small unmanned aircraft. it includes a high-quality Memsic MMC5983MA magnetometer enabling sub-1-degree heading accuracy. This interfaces to your autopilot via robust UAVCAN interface - no sketchy I2C wiring for your magnetometer!
 
-## What makes it special?
+### What makes it special?
 
 * Extremely high-quality Memsic magnetometer IC allows ~0.5deg heading accuracy in low-interference installations
 * Robust UAVCAN interface is compatible with most Pixhawks and similar autopilots and makes it safe to install your laser far away from the autopilot, wherever is convenient!
 * Mount with screws through mounting ears or snip them off and foam tape it to your airframe
 * Update firmware via CAN interface
 
-## Specifications
+### Specifications
 
 * Weight: 3.2 grams  
 * Size: 1.25in x 0.75in x 0.25in  
 * Power: 4.0V to 5.5V, XXmA  
 
-## Required Accessories
+### Required Accessories
 
 * [CAN Harness](https://www.tindie.com/products/avionicsanonymous/uavcan-interconnect-cable/) - connects between the autopilot and a CAN node and between each CAN node on the bus
 * [CAN Terminator](https://www.tindie.com/products/avionicsanonymous/uavcan-jst-terminator/) - connects to the last device on the CAN bus
 
-### Where to Buy
+#### Where to Buy
 
 * [Tindie](https://www.tindie.com/products/avionicsanonymous/uavcan-magnetometer/)
 
-# User Guide
+## User Guide
 
-## Wiring
+### Wiring
 
 The MiniMag is connected to your autopilot via CAN bus. The wiring is per the pinout below, or the necessary cables can be purchased to connect to your system right out of the box:
 
 * [CAN Harness](https://www.tindie.com/products/avionicsanonymous/uavcan-interconnect-cable/) - connects between the autopilot and a CAN node and between each CAN node on the bus
 * [CAN Terminator](https://www.tindie.com/products/avionicsanonymous/uavcan-jst-terminator/) - connects to the last device on the CAN bus
 
-### Pinouts
+#### Pinouts
 
 **CAN Connector**
 
@@ -44,12 +46,11 @@ The MiniMag is connected to your autopilot via CAN bus. The wiring is per the pi
 | 1 | POWER\_IN | Power Supply. 4.0-5.5V supported. |
 | 2 | CAN\_H | CAN high |
 | 3 | CAN\_L | CAN low |
-| 4 | GND | Signal/power ground. |  
-<span></span>
+| 4 | GND | Signal/power ground. |
 
-## Configuration
+### Configuration
 
-### Autopilot Configuration
+#### Autopilot Configuration
 
 **PX4**
 
@@ -57,7 +58,7 @@ Several autopilot parameters must be set using QGC or similar:
 
 * UAVCAN must be enabled by setting _UAVCAN\_ENABLE_ non zero. Set this to 1 for basic functionality or 2 to allow the device's UAVCAN parameters to be accessed via QGC.
 
-### Node Configuration
+#### Node Configuration
 
 The MiniMag node has a number of parameters accessible via the UAVCAN interface. These may be set following the steps outlined [here](../general/parameters.md)
 
@@ -65,11 +66,10 @@ The MiniMag node has a number of parameters accessible via the UAVCAN interface.
 
 | Parameter Name | Description | Default Value | Allowable Values |
 | :--- | :--- | :--- | :--- |
-| node\_id | Node ID for this device | 102 | 1-125 | 
+| node\_id | Node ID for this device | 102 | 1-125 |
 | rotation | Board rotation in degrees | 0 | 0-360 |
 | update\_rate\_hz | Rate at which magnetic field data is published in Hz | 30 | 1-30 |
-| auto\_mag\_set | Enable [auto temperature compensation](minimag.md#automatic-temperature-compensation) | 0 | 0-1 |  
-<span></span>
+| auto\_mag\_set | Enable [auto temperature compensation](minimag.md#automatic-temperature-compensation) | 0 | 0-1 |
 
 **Automatic Temperature Compensation**
 
