@@ -44,6 +44,7 @@ The firmware on all AvAnon UAVCAN nodes can be updated via their UAVCAN interfac
 
       **Note** Some devices \(like the GNSS\) may not restart cleanly and the LED may flash red. If this happens, disconnect and reconnect the node. It should start up normally.
 12. Verify the expected version is displayed next to "Software Version"
+    * If the version does not match what you tried to load, the upload may have failed. Certain CAN tools seem to provide more reliable transfers than others, and the firmware loader in early firmware versions is not very robust to dropped data. If it fails, disconnect your node and start again at step 6. With some tools, this may take several attempts. Upcoming firmware will improve the robustness of this update system. 
 
 ## Updating automatically using PX4-based autopilots
 
