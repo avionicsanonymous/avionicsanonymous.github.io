@@ -77,3 +77,8 @@ Setting the "auto\_mag\_set" parameter to 1 enables an experimental automatic te
 
 **Warning** This feature has not been thoroughly vetted and is considered experimental! Use at your own risk.
 
+### Firmware
+
+{% file src="../.gitbook/assets/minimag-1.1.notreal.bin" caption="MiniMag v1.1" %}
+
+[Release Notes](/firmware/release_notes/minimag.md)
