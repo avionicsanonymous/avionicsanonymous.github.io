@@ -137,17 +137,7 @@ The Laser Interface node has a number of parameters accessible via the UAVCAN in
 
 ## Firmware
 
-{% file src="../.gitbook/assets/minimag-1.1.notreal.bin" caption="Firmware v1.1" %}
-
 ### Release Notes
-
-#### v1.2
-
-* Improved firmware version reporting via CAN to support PX4-based firmware update
-
-#### v1.1
-
-* Fix timer rollover issue which could cause a failed mag sample every ~72 minutes
 
 #### v1.0
 

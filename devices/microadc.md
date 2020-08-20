@@ -95,15 +95,13 @@ The MicroADC is capable of publishing calculated indicated and true airspeed bas
 
 ## Firmware
 
-{% file src="../.gitbook/assets/minimag-1.1.notreal.bin" caption="Firmware v1.1" %}
+{% file src="../.gitbook/assets/microadc-1.1.201ba298.bin" caption="Firmware v1.2" %}
 
 ### Release Notes
 
-#### v1.1
-
-* Fix CAN transfer bug that could cause intermittent bus lockups
+#### v1.2
+* Fix timing bug that could cause intermittent CAN bus lockups
+* Support new thermistor type
 
 #### v1.0
-
 * Initial Release
-
