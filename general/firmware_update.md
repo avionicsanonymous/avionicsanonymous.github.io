@@ -27,23 +27,22 @@ The firmware on all AvAnon UAVCAN nodes can be updated via their UAVCAN interfac
 
    ![UAVCAN GUI Node Properties](../.gitbook/assets/CANGUI_FWUpdate.png)
 
-* You may get a warning that no dynamic ID server is running that asks if you want to continue. Select "yes".
+9. You may get a warning that no dynamic ID server is running that asks if you want to continue. Select "yes".
+10. Navigate to the AvAnon firmware file you downloaded earlier and select "open"
 
-1. Navigate to the AvAnon firmware file you downloaded earlier and select "open"
+    **Warning** Make sure you select the correct firmware file for this node! Using this method, there is no protection against flashing firmware for the wrong node.
 
-   **Warning** Make sure you select the correct firmware file for this node! Using this method, there is no protection against flashing firmware for the wrong node.
+11. Sit back and wait!
+    * You should see the node "Mode" switch to "SOFTWARE UPDATE"
+    * The LED's on your AvAnon node should flash yellow/red alternately
+    * Periodically, updates will appear in the GUI "Log Messages" box showing download progress
+12. When the firmware update is successful, the node will restart
+    * The displayed "Mode" will return to operational
+    * The node's LED will flash green
 
-2. Sit back and wait!
-   * You should see the node "Mode" switch to "SOFTWARE UPDATE"
-   * The LED's on your AvAnon node should flash yellow/red alternately
-   * Periodically, updates will appear in the GUI "Log Messages" box showing download progress
-3. When the firmware update is successful, the node will restart
-   * The displayed "Mode" will return to operational
-   * The node's LED will flash green
-
-     **Note** Some devices \(like the GNSS\) may not restart cleanly and the LED may flash red. If this happens, disconnect and reconnect the node. It should start up normally.
-4. Verify the expected version is displayed next to "Software Version"
-   * If the version does not match what you tried to load, the upload may have failed. Certain CAN tools seem to provide more reliable transfers than others, and the firmware loader in early firmware versions is not very robust to dropped data. If it fails, disconnect your node and start again at step 6. With some tools, this may take several attempts. Upcoming firmware will improve the robustness of this update system. 
+      **Note** Some devices \(like the GNSS\) may not restart cleanly and the LED may flash red. If this happens, disconnect and reconnect the node. It should start up normally.
+13. Verify the expected version is displayed next to "Software Version"
+    * If the version does not match what you tried to load, the upload may have failed. Certain CAN tools seem to provide more reliable transfers than others, and the firmware loader in early firmware versions is not very robust to dropped data. If it fails, disconnect your node and start again at step 6. With some tools, this may take several attempts. Upcoming firmware will improve the robustness of this update system. 
 
 ## Updating automatically using PX4-based autopilots
 
