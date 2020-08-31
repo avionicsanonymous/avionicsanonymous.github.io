@@ -143,3 +143,16 @@ The Laser Interface node has a number of parameters accessible via the UAVCAN in
 
 * Initial Release
 
+## PX4 Patch for PX4 v1.10.2
+
+While we wait for the PX4 dev team to merge in our rangefinder support, you can use the following:
+
+### Patch File
+If you build your own firmware from source, you can apply this patch (based on PX4 v1.10.2) to add UAVCAN rangefinder support:
+
+{% file src="../.gitbook/assets/uavcan_rangefinder_v1.10.2.patch.txt" caption="Patch File" %}
+
+### PX4 Binary
+If you prefer to just flash a ready-to-go binary, you can use this pre-built firmware binary, also based on PX4 v1.10.2. Note, this is only for FMU-V3 hardware like the Black Cube or Pixhawk 2.1. If you need a build for different hardware, just let us know and we'll provide it!
+
+{% file src="../.gitbook/assets/px4_fmu-v3_v1.10.2-uavcan-rangefinder.bin" caption="PX4 v1.10.2 with UAVCAN Rangefinder Support" %}
