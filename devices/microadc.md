@@ -100,8 +100,11 @@ The MicroADC is capable of publishing calculated indicated and true airspeed bas
 ### Release Notes
 
 #### v1.2
+
 * Fix timing bug that could cause intermittent CAN bus lockups
 * Support new thermistor type
 
 #### v1.0
+
 * Initial Release
+
