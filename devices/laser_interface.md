@@ -153,6 +153,8 @@ If you build your own firmware from source, you can apply this patch (based on P
 {% file src="../.gitbook/assets/uavcan_rangefinder_v1.10.2.patch.txt" caption="Patch File" %}
 
 ### PX4 Binary
-If you prefer to just flash a ready-to-go binary, you can use this pre-built firmware binary, also based on PX4 v1.10.2. Note, this is only for FMU-V3 hardware like the Black Cube or Pixhawk 2.1. If you need a build for different hardware, just let us know and we'll provide it!
+If you prefer to just flash a ready-to-go binary, you can use this pre-built firmware binary, also based on PX4 v1.10.2. Note, this is only for FMU-V3 hardware like the Black Cube/Pixhawk 2.1 or for FMU-V5 hardware like the Pixhawk 4. If you need a build for different hardware, just let us know and we'll provide it!
 
-{% file src="../.gitbook/assets/px4_fmu-v3_v1.10.2-uavcan-rangefinder.bin" caption="PX4 v1.10.2 with UAVCAN Rangefinder Support" %}
+{% file src="../.gitbook/assets/px4_fmu-v3_v1.10.2-uavcan-rangefinder.bin" caption="PX4 v1.10.2 for FMU-V3 with UAVCAN Rangefinder Support" %}
+
+{% file src="../.gitbook/assets/px4_fmu-v5_v1.10.2-uavcan-rangefinder.bin" caption="PX4 v1.10.2  for FMU-V5 with UAVCAN Rangefinder Support" %}
