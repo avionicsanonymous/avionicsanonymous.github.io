@@ -1,10 +1,10 @@
-# Power Monitor
+# Voltage Monitor
 
 ## Overview
 
-![Power Monitor](../.gitbook/assets/powermon_render.png)
+![Voltage Monitor](../.gitbook/assets/powermon_render.png)
 
-The [Avionics Anonymous Power Monitor] is a small 8-channel voltage monitor unit. It allows monitoring of multiple batteries, voltage regulators, solar cells, etc - any 8 voltage sources that share a common ground. Connects to Pixhawk and other similar autopilots via UAVCAN. Comes fully assembled, ready to use!
+The [Avionics Anonymous Voltage Monitor] is a small 8-channel analog input unit. It allows measurement of analog sensors or monitoring of multiple batteries, voltage regulators, solar cells, etc - any 8 voltage sources that share a common ground. Connects to Pixhawk and other similar autopilots via UAVCAN. Comes fully assembled, ready to use!
 
 ### What makes it special?
 
@@ -36,12 +36,12 @@ Note: because the inputs share a common ground, this unit cannot be used to moni
 
 ### Wiring
 
-The Power Monitor is connected to your autopilot via CAN bus. The wiring is per the pinout below, or the necessary cables can be purchased to connect to your system right out of the box:
+The Voltage Monitor is connected to your autopilot via CAN bus. The wiring is per the pinout below, or the necessary cables can be purchased to connect to your system right out of the box:
 
 * [CAN Harness](https://www.tindie.com/products/avionicsanonymous/uavcan-interconnect-cable/) - connects between the autopilot and a CAN node and between each CAN node on the bus
 * [CAN Terminator](https://www.tindie.com/products/avionicsanonymous/uavcan-jst-terminator/) - connects to the last device on the CAN bus
 
-Voltages to be monitored are connected to channels 1-8 on the 8x2 header. The 8 ground pins, closest to the edge of the board, are tied to a common ground.
+Analog inputs are connected to channels 1-8 on the 8x2 header. The 8 ground pins, closest to the edge of the board, are tied to a common ground.
 
 #### Pinouts
 
@@ -69,7 +69,7 @@ Currently, this device is not natively supported by common autopilots. Add your 
 
 #### Node Configuration
 
-The Power Monitor node has a number of parameters accessible via the UAVCAN interface. These may be set following the steps outlined [here](../general/parameters.md)
+The Voltage Monitor node has a number of parameters accessible via the UAVCAN interface. These may be set following the steps outlined [here](../general/parameters.md)
 
 **Parameters**
 

@@ -13,5 +13,6 @@
 * [MiniMag](devices/minimag.md)
 * [GNSSMag](devices/gnssmag.md)
 * [MicroADC](devices/microadc.md)
-* [Power Monitor](devices/powermon.md)
+* [Voltage Monitor](devices/power_monitor.md)
+* [Engine Monitor](devices/engine_monitor.md)
 
