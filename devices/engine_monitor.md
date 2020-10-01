@@ -6,6 +6,8 @@
 
 The [Avionics Anonymous Engine Monitor] interfaces with common engine sensors. It provides 4x 0-5V analog inputs, 4x thermocouple inputs, and an RPM input. Connects to Pixhawk and other similar autopilots via UAVCAN. Comes fully assembled, ready to use!
 
+**Note:** This device currently requires custom development to integrate with most autopilot software. Please contact us if you need assistance.
+
 ### What makes it special?
 
 * 4x 0-5V analog inputs (with under- and over-voltage protection)

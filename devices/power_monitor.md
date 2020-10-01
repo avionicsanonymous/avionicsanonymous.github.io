@@ -6,6 +6,8 @@
 
 The [Avionics Anonymous Voltage Monitor] is a small 8-channel analog input unit. It allows measurement of analog sensors or monitoring of multiple batteries, voltage regulators, solar cells, etc - any 8 voltage sources that share a common ground. Connects to Pixhawk and other similar autopilots via UAVCAN. Comes fully assembled, ready to use!
 
+**Note:** This device currently requires custom development to integrate with most autopilot software. Please contact us if you need assistance.
+
 ### What makes it special?
 
 * 8 separate voltage inputs (common ground)
@@ -15,7 +17,7 @@ The [Avionics Anonymous Voltage Monitor] is a small 8-channel analog input unit.
 * Robust UAVCAN interface is compatible with most Pixhawks and similar autopilots
 * Update firmware via CAN interface
 
-Note: because the inputs share a common ground, this unit cannot be used to monitor series cell voltages in a battery.
+**Note:** Because the inputs share a common ground, this unit cannot be used to monitor series cell voltages in a battery.
 
 ### Specifications
 
