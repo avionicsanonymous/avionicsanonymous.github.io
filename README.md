@@ -14,6 +14,7 @@ Avionics Anonymous is dedicated to providing high-quality electronics to the hob
 * [MiniMag](devices/minimag.md)
 * [GNSSMag](devices/gnssmag.md)
 * [MicroADC](devices/microadc.md)
+* [Power Monitor](devices/powermon.md)
 
 ### Check out these pages for general tips that apply to most devices:
 
