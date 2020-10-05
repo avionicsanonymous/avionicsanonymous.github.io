@@ -137,7 +137,13 @@ The Laser Interface node has a number of parameters accessible via the UAVCAN in
 
 ## Firmware
 
+{% file src="../.gitbook/assets/laserInterface-1.2.90f8dfae.bin" caption="Firmware v1.2" %}
+
 ### Release Notes
+
+#### v1.2
+
+* Improve SF0X timeout recovery
 
 #### v1.0
 

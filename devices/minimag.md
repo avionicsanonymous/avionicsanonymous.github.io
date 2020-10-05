@@ -79,7 +79,13 @@ Setting the "auto\_mag\_set" parameter to 1 enables an experimental automatic te
 
 ## Firmware
 
+{% file src="../.gitbook/assets/miniMag-1.3.8c52e22f.bin" caption="Firmware v1.3" %}
+
 ### Release Notes
+
+#### v1.3
+
+* Reset sensor magnetization on boot
 
 #### v1.2
 
