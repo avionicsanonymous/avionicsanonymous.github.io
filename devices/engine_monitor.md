@@ -53,7 +53,7 @@ The RPM signal is connected to a Molex SL 2-pin locking header. Polarity is mark
 
 | Pin | Name | Description |
 | :--- | :--- | :--- |
-| 1 | POWER\_IN | Power Supply. 4.0-5.5V supported, but must also be compatible with connected laser. |
+| 1 | POWER\_IN | Power Supply. 4.0-5.5V supported. |
 | 2 | CAN\_H | CAN high |
 | 3 | CAN\_L | CAN low |
 | 4 | GND | Signal/power ground. |
