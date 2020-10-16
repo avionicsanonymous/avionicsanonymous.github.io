@@ -52,7 +52,7 @@ The MiniMag is connected to your autopilot via CAN bus. The wiring is per the pi
 
 #### Attachment
 
-The MiniMag can be mounted several ways. It includes 4x screw holes for 4-40/M3 screws. If using screws, make sure to use aluminum or another non-ferrous material! You can also simply adhere it to your vehicle with double-sided tape, and if doing so, you can cut off the mounting ears to save some weight and space.
+The MiniMag can be mounted several ways. It includes 4x screw holes for 4-40/M3 screws. If using screws, make sure to use aluminum or otherwise non-ferrous screws! You can also simply adhere it to your vehicle with double-sided tape, and if doing so, you can cut off the mounting ears to save some weight and space.
 
 #### Orientation 
 
