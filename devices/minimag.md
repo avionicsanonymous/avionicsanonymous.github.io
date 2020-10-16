@@ -48,6 +48,22 @@ The MiniMag is connected to your autopilot via CAN bus. The wiring is per the pi
 | 3 | CAN\_L | CAN low |
 | 4 | GND | Signal/power ground. |
 
+### Mounting
+
+#### Attachment
+
+The MiniMag can be mounted several ways. It includes 4x screw holes for 4-40/M3 screws. If using screws, make sure to use aluminum or another non-ferrous material! You can also simply adhere it to your vehicle with double-sided tape, and if doing so, you can cut off the mounting ears to save some weight and space.
+
+#### Orientation 
+
+The MiniMag is normally mounted with the "flat" side down (components on the board pointed up) and the connector-end of the board pointed toward the back of your vehicle. 
+
+![Mounting Orientation and Rotation Param](../.gitbook/assets/minimag_rotation.png)
+
+It can, however, be mounted in any orientation. If mounted flat-side-down and only rotated in yaw, you can use the built-in rotation parameter to adjust for this. Enter the value (in degrees) that the board is rotated in yaw. For example, if the connector-end of the board points toward the left side of your vehicle, enter "90" for rotation.
+
+For mounting orientations other than simple yaw, please use the external mag rotation settings in your autopilot to match your mounting. 
+
 ### Configuration
 
 #### Autopilot Configuration
