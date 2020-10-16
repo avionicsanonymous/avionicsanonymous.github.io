@@ -18,8 +18,8 @@ The [Avionics Anonymous MicroADC Air Data Computer](https://www.tindie.com/produ
 
 ### Specifications
 
-* Weight: XX grams
-* Size: XX x XX x XX
+* Weight: 6 grams
+* Size: 1.5in x 1.15in x 0.47in
 * Power: 4.0V to 5.5V, XXmA
 
 ### Required Accessories

@@ -17,7 +17,7 @@ The [Avionics Anonymous GNSSMag GPS and Magnetometer](https://www.tindie.com/pro
 
 ### Specifications
 
-* Weight: 17.4 grams
+* Weight: 16.9 grams
 * Size: 55m x 55mm x 10mm
 * Power: 4.0V to 5.5V, XXmA
 
