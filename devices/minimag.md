@@ -4,11 +4,11 @@
 
 ![MiniMag Magnetometer](../.gitbook/assets/minimag.png)
 
-The [Avionics Anonymous MiniMag Magnetometer](https://www.tindie.com/products/avionicsanonymous/uavcan-magnetometer/) is a high-precision magnetometer for small unmanned aircraft. it includes a high-quality Memsic MMC5983MA magnetometer enabling sub-1-degree heading accuracy. This interfaces to your autopilot via robust UAVCAN interface - no sketchy I2C wiring for your magnetometer!
+The [Avionics Anonymous MiniMag Magnetometer](https://www.tindie.com/products/avionicsanonymous/uavcan-magnetometer/) is a high-precision magnetometer for small unmanned aircraft. It includes a high-quality Memsic MMC5983MA magnetometer enabling sub-1-degree heading accuracy. This interfaces to your autopilot via robust UAVCAN interface - no sketchy I2C wiring for your magnetometer!
 
 ### What makes it special?
 
-* Extremely high-quality Memsic magnetometer IC allows ~0.5deg heading accuracy in low-interference installations
+* Extremely high-quality Memsic magnetometer IC allows better than 1-degree heading accuracy in low-interference installations
 * Robust UAVCAN interface is compatible with most Pixhawks and similar autopilots and makes it safe to install your laser far away from the autopilot, wherever is convenient!
 * Mount with screws through mounting ears or snip them off and foam tape it to your airframe
 * Update firmware via CAN interface

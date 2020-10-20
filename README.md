@@ -12,6 +12,7 @@ Avionics Anonymous is dedicated to providing high-quality electronics to the hob
 
 * [Laser Interface](devices/laser_interface.md) 
 * [MiniMag](devices/minimag.md)
+* [MaxiMag](devices/maximag.md)
 * [GNSSMag](devices/gnssmag.md)
 * [MicroADC](devices/microadc.md)
 * [Voltage Monitor](devices/power_monitor.md)

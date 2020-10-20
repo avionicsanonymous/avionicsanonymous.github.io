@@ -79,7 +79,7 @@ The GNSSMag node has a number of parameters accessible via the UAVCAN interface.
 | node\_id | Node ID for this device | 120 | 1-125 |
 | rotation | Board rotation in degrees | 0 | 0-360 |
 | update\_rate\_hz | Rate at which magnetic field data is published in Hz | 30 | 0-30 |
-| auto\_mag\_set | Enable [auto temperature compensation](minimag.md#automatic-temperature-compensation) | 0 | 0-1 |
+| auto\_mag\_set | Enable [auto temperature compensation](gnssmag.md#automatic-temperature-compensation) | 0 | 0-1 |
 
 **Automatic Temperature Compensation**
 
