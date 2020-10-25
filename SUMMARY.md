@@ -16,4 +16,5 @@
 * [MicroADC](devices/microadc.md)
 * [Voltage Monitor](devices/power_monitor.md)
 * [Engine Monitor](devices/engine_monitor.md)
+* [Light Controller](devices/lightcontroller.md)
 

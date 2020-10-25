@@ -17,6 +17,7 @@ Avionics Anonymous is dedicated to providing high-quality electronics to the hob
 * [MicroADC](devices/microadc.md)
 * [Voltage Monitor](devices/power_monitor.md)
 * [Engine Monitor](devices/engine_monitor.md)
+* [Light Controller](devices/lightcontroller.md)
 
 ### Check out these pages for general tips that apply to most devices:
 
