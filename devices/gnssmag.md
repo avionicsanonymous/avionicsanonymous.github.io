@@ -4,7 +4,7 @@
 
 ![GNSSMag GPS and Magnetometer](../.gitbook/assets/gnssmag.png)
 
-The [Avionics Anonymous GNSSMag GPS and Magnetometer](https://www.tindie.com/products/avionicsanonymous/uavcan-gps-magnetometer/) is a combination GPS and magnetometer for small unmanned aircraft. Includes a uBlox SAM-M8Q integrated multi-constellation GNSS unit and a high-quality Memsic MMC5983MA magnetometer enabling sub-1-degree heading accuracy. All of this interfaces to your autopilot via robust UAVCAN interface - no sketchy I2C wiring for your magnetometer! Comes fully assembled, ready to plug in and use! Also available without a magnetometer for applications using remote mags.
+The [Avionics Anonymous GNSSMag GPS and Magnetometer](https://www.avionicsanonymous.com/product-page/uavcan-gnss-mag) is a combination GPS and magnetometer for small unmanned aircraft. Includes a uBlox SAM-M8Q integrated multi-constellation GNSS unit and a high-quality Memsic MMC5983MA magnetometer enabling sub-1-degree heading accuracy. All of this interfaces to your autopilot via robust UAVCAN interface - no sketchy I2C wiring for your magnetometer! Comes fully assembled, ready to plug in and use! Also available without a magnetometer for applications using remote mags.
 
 ### What makes it special?
 
@@ -23,11 +23,12 @@ The [Avionics Anonymous GNSSMag GPS and Magnetometer](https://www.tindie.com/pro
 
 ### Required Accessories
 
-* [CAN Harness](https://www.tindie.com/products/avionicsanonymous/uavcan-interconnect-cable/) - connects between the autopilot and a CAN node and between each CAN node on the bus
-* [CAN Terminator](https://www.tindie.com/products/avionicsanonymous/uavcan-jst-terminator/) - connects to the last device on the CAN bus
+* [CAN Harness](https://www.avionicsanonymous.com/product-page/uavcan-interconnect-cable) - connects between the autopilot and a CAN node and between each CAN node on the bus
+* [CAN Terminator](https://www.avionicsanonymous.com/product-page/uavcan-terminator) - connects to the last device on the CAN bus
 
 #### Where to Buy
 
+* [Avionics Anonymous Store](https://www.avionicsanonymous.com/product-page/uavcan-gnss-mag)
 * [Tindie](https://www.tindie.com/products/avionicsanonymous/uavcan-gps-magnetometer/)
 
 ## User Guide
@@ -36,8 +37,8 @@ The [Avionics Anonymous GNSSMag GPS and Magnetometer](https://www.tindie.com/pro
 
 The GNSSMag is connected to your autopilot via CAN bus. The wiring is per the pinout below, or the necessary cables can be purchased to connect to your system right out of the box:
 
-* [CAN Harness](https://www.tindie.com/products/avionicsanonymous/uavcan-interconnect-cable/) - connects between the autopilot and a CAN node and between each CAN node on the bus
-* [CAN Terminator](https://www.tindie.com/products/avionicsanonymous/uavcan-jst-terminator/) - connects to the last device on the CAN bus
+* [CAN Harness](https://www.avionicsanonymous.com/product-page/uavcan-interconnect-cable) - connects between the autopilot and a CAN node and between each CAN node on the bus
+* [CAN Terminator](https://www.avionicsanonymous.com/product-page/uavcan-terminator) - connects to the last device on the CAN bus
 
 #### Pinouts
 

@@ -4,7 +4,7 @@
 
 ![Voltage Monitor](../.gitbook/assets/powermon_render.png)
 
-The [Avionics Anonymous Voltage Monitor] is a small 8-channel analog input unit. It allows measurement of analog sensors or monitoring of multiple batteries, voltage regulators, solar cells, etc - any 8 voltage sources that share a common ground. Connects to Pixhawk and other similar autopilots via UAVCAN. Comes fully assembled, ready to use!
+The Avionics Anonymous Voltage Monitor is a small 8-channel analog input unit. It allows measurement of analog sensors or monitoring of multiple batteries, voltage regulators, solar cells, etc - any 8 voltage sources that share a common ground. Connects to Pixhawk and other similar autopilots via UAVCAN. Comes fully assembled, ready to use!
 
 **Note:** This device currently requires custom development to integrate with most autopilot software. Please contact us if you need assistance.
 
@@ -27,8 +27,8 @@ The [Avionics Anonymous Voltage Monitor] is a small 8-channel analog input unit.
 
 ### Required Accessories
 
-* [CAN Harness](https://www.tindie.com/products/avionicsanonymous/uavcan-interconnect-cable/) - connects between the autopilot and a CAN node and between each CAN node on the bus
-* [CAN Terminator](https://www.tindie.com/products/avionicsanonymous/uavcan-jst-terminator/) - connects to the last device on the CAN bus
+* [CAN Harness](https://www.avionicsanonymous.com/product-page/uavcan-interconnect-cable) - connects between the autopilot and a CAN node and between each CAN node on the bus
+* [CAN Terminator](https://www.avionicsanonymous.com/product-page/uavcan-terminator) - connects to the last device on the CAN bus
 
 ### Where to Buy
 
@@ -40,8 +40,8 @@ The [Avionics Anonymous Voltage Monitor] is a small 8-channel analog input unit.
 
 The Voltage Monitor is connected to your autopilot via CAN bus. The wiring is per the pinout below, or the necessary cables can be purchased to connect to your system right out of the box:
 
-* [CAN Harness](https://www.tindie.com/products/avionicsanonymous/uavcan-interconnect-cable/) - connects between the autopilot and a CAN node and between each CAN node on the bus
-* [CAN Terminator](https://www.tindie.com/products/avionicsanonymous/uavcan-jst-terminator/) - connects to the last device on the CAN bus
+* [CAN Harness](https://www.avionicsanonymous.com/product-page/uavcan-interconnect-cable) - connects between the autopilot and a CAN node and between each CAN node on the bus
+* [CAN Terminator](https://www.avionicsanonymous.com/product-page/uavcan-terminator) - connects to the last device on the CAN bus
 
 Analog inputs are connected to channels 1-8 on the 8x2 header. The 8 ground pins, closest to the edge of the board, are tied to a common ground.
 

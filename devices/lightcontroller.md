@@ -4,7 +4,7 @@
 
 ![Light Controller](../.gitbook/assets/lightcontroller.png)
 
-The Avionics Anonymous Light Controller is a 4-channel light controller for unmanned vehicles. Each channel can be configured as a nav, strobe, beacon or landing light and can be programmed for various patterns. When connected to an autopilot running PX4, lights are automatically controlled based on the state of the autopilot! For example, beacons can be set to turn on when the system is prearmed and strobes to turn on when the system is armed, while nav lights may always be on. All of this is configurable via PX4 and UAVCAN parameters. The device interfaces to your autopilot via robust UAVCAN interface - much easier than trying to tune a PWM signal to give you the desired patterns using typical R/C light controllers.
+The [Avionics Anonymous Light Controller](https://www.avionicsanonymous.com/product-page/uavcan-light-controller) is a 4-channel light controller for unmanned vehicles. Each channel can be configured as a nav, strobe, beacon or landing light and can be programmed for various patterns. When connected to an autopilot running PX4, lights are automatically controlled based on the state of the autopilot! For example, beacons can be set to turn on when the system is prearmed and strobes to turn on when the system is armed, while nav lights may always be on. All of this is configurable via PX4 and UAVCAN parameters. The device interfaces to your autopilot via robust UAVCAN interface - much easier than trying to tune a PWM signal to give you the desired patterns using typical R/C light controllers.
 
 ### What makes it special?
 
@@ -25,12 +25,12 @@ The Avionics Anonymous Light Controller is a 4-channel light controller for unma
 
 ### Required Accessories
 
-* [CAN Harness](https://www.tindie.com/products/avionicsanonymous/uavcan-interconnect-cable/) - connects between the autopilot and a CAN node and between each CAN node on the bus
-* [CAN Terminator](https://www.tindie.com/products/avionicsanonymous/uavcan-jst-terminator/) - connects to the last device on the CAN bus
+* [CAN Harness](https://www.avionicsanonymous.com/product-page/uavcan-interconnect-cable) - connects between the autopilot and a CAN node and between each CAN node on the bus
+* [CAN Terminator](https://www.avionicsanonymous.com/product-page/uavcan-terminator) - connects to the last device on the CAN bus
 
 #### Where to Buy
 
-* Coming soon! Contact us to purchase.
+* [Avionics Anonymous Store](https://www.avionicsanonymous.com/product-page/uavcan-light-controller)
 
 ## User Guide
 
@@ -38,8 +38,8 @@ The Avionics Anonymous Light Controller is a 4-channel light controller for unma
 
 The Light Controller is connected to your autopilot via CAN bus. The wiring is per the pinout below, or the necessary cables can be purchased to connect to your system right out of the box:
 
-* [CAN Harness](https://www.tindie.com/products/avionicsanonymous/uavcan-interconnect-cable/) - connects between the autopilot and a CAN node and between each CAN node on the bus
-* [CAN Terminator](https://www.tindie.com/products/avionicsanonymous/uavcan-jst-terminator/) - connects to the last device on the CAN bus
+* [CAN Harness](https://www.avionicsanonymous.com/product-page/uavcan-interconnect-cable) - connects between the autopilot and a CAN node and between each CAN node on the bus
+* [CAN Terminator](https://www.avionicsanonymous.com/product-page/uavcan-terminator) - connects to the last device on the CAN bus
 
 #### Pinouts
 

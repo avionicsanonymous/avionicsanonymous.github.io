@@ -4,7 +4,7 @@
 
 ![Laser Interface](../.gitbook/assets/laserinterface.png)
 
-The [Avionics Anonymous Laser Altimeter Interface](https://www.tindie.com/products/avionicsanonymous/uavcan-laser-altimeter-interface/) is a tiny interface for [several common laser rangefinders](laser_interface.md#currently-supported-lasers) that allows connection to Pixhawk and other similar autopilots via UAVCAN - A nice robust interface, no sketchy long-distance I2C wiring and no hogged serial ports! These lasers are great for use as laser altimeters which help with nice auto landings. Comes fully assembled, ready to use!
+The [Avionics Anonymous Laser Altimeter Interface](https://www.avionicsanonymous.com/product-page/uavcan-laser-interface) is a tiny interface for [several common laser rangefinders](laser_interface.md#currently-supported-lasers) that allows connection to Pixhawk and other similar autopilots via UAVCAN - A nice robust interface, no sketchy long-distance I2C wiring and no hogged serial ports! These lasers are great for use as laser altimeters which help with nice auto landings. Comes fully assembled, ready to use!
 
 ### Currently supported Lasers
 
@@ -40,11 +40,12 @@ Coming soon:
 
 ### Required Accessories
 
-* [CAN Harness](https://www.tindie.com/products/avionicsanonymous/uavcan-interconnect-cable/) - connects between the autopilot and a CAN node and between each CAN node on the bus
-* [CAN Terminator](https://www.tindie.com/products/avionicsanonymous/uavcan-jst-terminator/) - connects to the last device on the CAN bus
+* [CAN Harness](https://www.avionicsanonymous.com/product-page/uavcan-interconnect-cable) - connects between the autopilot and a CAN node and between each CAN node on the bus
+* [CAN Terminator](https://www.avionicsanonymous.com/product-page/uavcan-terminator) - connects to the last device on the CAN bus
 
 ### Where to Buy
 
+* [Avionics Anonymous Store](https://www.avionicsanonymous.com/product-page/uavcan-laser-interface)
 * [Tindie](https://www.tindie.com/products/avionicsanonymous/uavcan-laser-altimeter-interface/)
 
 ## User Guide
@@ -53,8 +54,8 @@ Coming soon:
 
 The rangefinder \(laser\) is connected to the AvAnon Laser Interface board, which is connected to one of the CAN ports on your autopilot. The wiring is per the pinout below, or the necessary cables can be purchased to connect to your system right out of the box:
 
-* [CAN Harness](https://www.tindie.com/products/avionicsanonymous/uavcan-interconnect-cable/) - connects between the autopilot and a CAN node and between each CAN node on the bus
-* [CAN Terminator](https://www.tindie.com/products/avionicsanonymous/uavcan-jst-terminator/) - connects to the last device on the CAN bus
+* [CAN Harness](https://www.avionicsanonymous.com/product-page/uavcan-interconnect-cable) - connects between the autopilot and a CAN node and between each CAN node on the bus
+* [CAN Terminator](https://www.avionicsanonymous.com/product-page/uavcan-terminator) - connects to the last device on the CAN bus
 
 The interface board provides a filtered power output for the laser, but does not provide its own regulation. Therefore, the laser must be compatible with whatever voltage is supplied to the Laser Interface.
 

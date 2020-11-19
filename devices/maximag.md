@@ -4,7 +4,7 @@
 
 ![MaxiMag Magnetometer](../.gitbook/assets/maximag.png)
 
-The Avionics Anonymous MaxiMag Magnetometer is a high-precision magnetometer for small unmanned aircraft. It includes a high-quality PNI RM3100 magnetometer enabling sub-1-degree heading accuracy and no variation with temperature. This interfaces to your autopilot via robust UAVCAN interface - no sketchy I2C wiring for your magnetometer!
+The [Avionics Anonymous MaxiMag Magnetometer](https://www.avionicsanonymous.com/product-page/uavcan-high-quality-magnetometer) is a high-precision magnetometer for small unmanned aircraft. It includes a high-quality PNI RM3100 magnetometer enabling sub-1-degree heading accuracy and no variation with temperature. This interfaces to your autopilot via robust UAVCAN interface - no sketchy I2C wiring for your magnetometer!
 
 ### What makes it special?
 
@@ -22,12 +22,12 @@ The Avionics Anonymous MaxiMag Magnetometer is a high-precision magnetometer for
 
 ### Required Accessories
 
-* [CAN Harness](https://www.tindie.com/products/avionicsanonymous/uavcan-interconnect-cable/) - connects between the autopilot and a CAN node and between each CAN node on the bus
-* [CAN Terminator](https://www.tindie.com/products/avionicsanonymous/uavcan-jst-terminator/) - connects to the last device on the CAN bus
+* [CAN Harness](https://www.avionicsanonymous.com/product-page/uavcan-interconnect-cable) - connects between the autopilot and a CAN node and between each CAN node on the bus
+* [CAN Terminator](https://www.avionicsanonymous.com/product-page/uavcan-terminator) - connects to the last device on the CAN bus
 
 #### Where to Buy
 
-* Coming soon! Contact us to purchase.
+* [Avionics Anonymous Store](https://www.avionicsanonymous.com/product-page/uavcan-high-quality-magnetometer)
 
 ## User Guide
 
@@ -35,8 +35,8 @@ The Avionics Anonymous MaxiMag Magnetometer is a high-precision magnetometer for
 
 The MaxiMag is connected to your autopilot via CAN bus. The wiring is per the pinout below, or the necessary cables can be purchased to connect to your system right out of the box:
 
-* [CAN Harness](https://www.tindie.com/products/avionicsanonymous/uavcan-interconnect-cable/) - connects between the autopilot and a CAN node and between each CAN node on the bus
-* [CAN Terminator](https://www.tindie.com/products/avionicsanonymous/uavcan-jst-terminator/) - connects to the last device on the CAN bus
+* [CAN Harness](https://www.avionicsanonymous.com/product-page/uavcan-interconnect-cable) - connects between the autopilot and a CAN node and between each CAN node on the bus
+* [CAN Terminator](https://www.avionicsanonymous.com/product-page/uavcan-terminator) - connects to the last device on the CAN bus
 
 #### Pinouts
 
