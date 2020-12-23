@@ -96,7 +96,7 @@ The MicroADC is capable of publishing calculated indicated and true airspeed bas
 
 ## Firmware
 
-{% file src="../.gitbook/assets/microadc-1.1.201ba298.bin" caption="Firmware v1.2" %}
+{% file src="../.gitbook/assets/microadc-1.2.201ba298.bin" caption="Firmware v1.2" %}
 
 ### Release Notes
 

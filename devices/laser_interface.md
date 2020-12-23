@@ -149,3 +149,4 @@ The Laser Interface node has a number of parameters accessible via the UAVCAN in
 #### v1.0
 
 * Initial Release
+

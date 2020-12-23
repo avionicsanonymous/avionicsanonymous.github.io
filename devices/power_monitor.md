@@ -10,7 +10,7 @@ The Avionics Anonymous Voltage Monitor is a small 8-channel analog input unit. I
 
 ### What makes it special?
 
-* 8 separate voltage inputs (common ground)
+* 8 separate voltage inputs \(common ground\)
 * Inputs are protected against under- and over-voltage
 * Units are built to order with your preferred voltage range for each channel
 * Publishes 8x standard UAVCAN "CircuitStatus" messages
@@ -56,12 +56,12 @@ Analog inputs are connected to channels 1-8 on the 8x2 header. The 8 ground pins
 | 3 | CAN\_L | CAN low |
 | 4 | GND | Signal/power ground. |
 
-**Input Connectors (8x)**
+**Input Connectors \(8x\)**
 
 | Pin | Name | Description |
 | :--- | :--- | :--- |
 | 1 | S | Voltage signal |
-| 2 | G | Ground|
+| 2 | G | Ground |
 
 ### Configuration
 
@@ -86,3 +86,4 @@ The Voltage Monitor node has a number of parameters accessible via the UAVCAN in
 #### v1.0
 
 * Initial Release
+

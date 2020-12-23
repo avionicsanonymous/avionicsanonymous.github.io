@@ -4,14 +4,14 @@
 
 ![Engine Monitor](../.gitbook/assets/enginemon_render.png)
 
-The [Avionics Anonymous Engine Monitor] interfaces with common engine sensors. It provides 4x 0-5V analog inputs, 4x thermocouple inputs, and an RPM input. Connects to Pixhawk and other similar autopilots via UAVCAN. Comes fully assembled, ready to use!
+The \[Avionics Anonymous Engine Monitor\] interfaces with common engine sensors. It provides 4x 0-5V analog inputs, 4x thermocouple inputs, and an RPM input. Connects to Pixhawk and other similar autopilots via UAVCAN. Comes fully assembled, ready to use!
 
 **Note:** This device currently requires custom development to integrate with most autopilot software. Please contact us if you need assistance.
 
 ### What makes it special?
 
-* 4x 0-5V analog inputs (with under- and over-voltage protection)
-* 4x thermocouple inputs (K-type by default)
+* 4x 0-5V analog inputs \(with under- and over-voltage protection\)
+* 4x thermocouple inputs \(K-type by default\)
 * 1x RPM input for connection to hall-effect sensors or output from electronic ignition systems
 * Customized software configuration for your application
 * Robust UAVCAN interface is compatible with most Pixhawks and similar autopilots
@@ -41,11 +41,11 @@ The Engine Monitor is connected to your autopilot via CAN bus. The wiring is per
 * [CAN Harness](https://www.avionicsanonymous.com/product-page/uavcan-interconnect-cable) - connects between the autopilot and a CAN node and between each CAN node on the bus
 * [CAN Terminator](https://www.avionicsanonymous.com/product-page/uavcan-terminator) - connects to the last device on the CAN bus
 
-Analog inputs are connected to each of 4x Molex SL 2-pin locking headers. Polarity is marked on the board.  
+Analog inputs are connected to each of 4x Molex SL 2-pin locking headers. Polarity is marked on the board.
 
-Thermocouples are connected to each of 4x screw-terminal blocks. Polarity is marked on the board.  
+Thermocouples are connected to each of 4x screw-terminal blocks. Polarity is marked on the board.
 
-The RPM signal is connected to a Molex SL 2-pin locking header. Polarity is marked on the board.  
+The RPM signal is connected to a Molex SL 2-pin locking header. Polarity is marked on the board.
 
 #### Pinouts
 
@@ -58,19 +58,19 @@ The RPM signal is connected to a Molex SL 2-pin locking header. Polarity is mark
 | 3 | CAN\_L | CAN low |
 | 4 | GND | Signal/power ground. |
 
-**Analog Input Connectors (4x)**
+**Analog Input Connectors \(4x\)**
 
 | Pin | Name | Description |
 | :--- | :--- | :--- |
 | 1 | S | Voltage signal |
-| 2 | G | Ground|
+| 2 | G | Ground |
 
-**Thermocouple Input Connectors (4x)**
+**Thermocouple Input Connectors \(4x\)**
 
 | Pin | Name | Description |
 | :--- | :--- | :--- |
-| 1 | Y | Yellow (K-type) |
-| 2 | R | Red (K-type) |
+| 1 | Y | Yellow \(K-type\) |
+| 2 | R | Red \(K-type\) |
 
 **RPM Input Connector**
 
@@ -102,3 +102,4 @@ The Engine Monitor node has a number of parameters accessible via the UAVCAN int
 #### v1.0
 
 * Initial Release
+
